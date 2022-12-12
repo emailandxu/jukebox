@@ -1,0 +1,1 @@
+docker run --gpus '"device=2"' -v $HOME/.cache:/root/.cache -v $HOME/git-repo:$HOME/git-repo -it jukebox bash
